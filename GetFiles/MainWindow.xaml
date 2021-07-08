@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GetFiles"
         mc:Ignorable="d"
-        Title="Focus 3 Took kit" Height="150" Width="330" ResizeMode="NoResize" Icon="/icon.jpg">
+        Title="Focus 3 Tool kit" Height="150" Width="330" ResizeMode="NoResize" Icon="/icon.jpg">
     <Grid>
         <Label Content="Click the box" HorizontalAlignment="Center" Margin="0,41,0,0" VerticalAlignment="Top"/>
         <Button x:Name="Button1" Content="Screenshots" HorizontalAlignment="Left" Margin="50,80,0,0" VerticalAlignment="Top" Background="White" BorderBrush="#FF13C1D3" Foreground="#FF13C1D3" Click="Button1_Click"/>
