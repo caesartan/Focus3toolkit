@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>GetFiles</id>
+    <version>1.0.0</version>
+    <authors>GetFiles</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net5.0-windows7.0" />
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net5.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\Vive_UT_GS65\source\repos\GetFiles\bin\Release\net5.0-windows\GetFiles.runtimeconfig.json" target="lib\net5.0-windows7.0\GetFiles.runtimeconfig.json" />
+    <file src="C:\Users\Vive_UT_GS65\source\repos\GetFiles\bin\Release\net5.0-windows\GetFiles.dll" target="lib\net5.0-windows7.0\GetFiles.dll" />
+  </files>
+</package>

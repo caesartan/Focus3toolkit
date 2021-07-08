@@ -1,0 +1,15 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GetFiles"
+        mc:Ignorable="d"
+        Title="Focus 3 Took kit" Height="150" Width="330" ResizeMode="NoResize" Icon="/icon.jpg">
+    <Grid>
+        <Label Content="Click the box" HorizontalAlignment="Center" Margin="0,41,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="Button1" Content="Screenshots" HorizontalAlignment="Left" Margin="50,80,0,0" VerticalAlignment="Top" Background="White" BorderBrush="#FF13C1D3" Foreground="#FF13C1D3" Click="Button1_Click"/>
+        <Button x:Name="Button2" Content="Recordings" HorizontalAlignment="Left" Margin="200,80,0,0" VerticalAlignment="Top" Foreground="#FF13C1D3" BorderBrush="#FF13C1D3" Background="White" Click="Button2_Click"/>
+
+    </Grid>
+</Window>
